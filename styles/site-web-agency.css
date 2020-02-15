@@ -1,0 +1,836 @@
+
+/* ---------------------------------------- */
+/* ==              end of font            */
+/*---------------------------------------- */
+
+
+body
+{
+	font-family: 'roboto';
+	width: 100%;
+    margin: 0px;
+}
+ 
+.bloc_page
+{
+ margin: auto;
+ width: 95%;
+}
+
+
+/* ---------------------------------------- */
+/* ==              HEADER               */
+/*---------------------------------------- */
+
+header
+{
+	background-color:#ffffff;
+	position: fixed;
+	 
+  /*opacity: 0.9;*/
+  z-index: 20;/*recheck and correct, 2 isnt enough */
+  top: 0;
+  width: 95%;
+  border-bottom: 1px solid #e5e5e5;
+   
+     /*	justify-content: space-between;
+    align-items: center;
+    position: fixed;
+   	width: 100%;
+    height: 80px;
+    /*background-color: white;*/
+    
+}
+#logohead
+{
+    display: flex;  
+    /*flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;*/
+}
+
+
+h1 span 
+{
+    color:#5cadd3;
+}
+
+/*{
+
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+*/
+#gallery img, img
+{
+    width: 100%;
+    height:auto;
+}
+.nav_list
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+header nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+header a 
+{
+   text-decoration:none;
+   color: black;
+} 
+
+#slogan
+{
+	text-align: center;
+    margin-bottom: 30px
+}
+
+/*.slogan_slider 
+{
+   margin-top: 142px;
+}*/
+
+
+/*.nav_menu
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0px;
+}
+*/
+
+
+#slogan a {
+    padding: 8px 10px 8px 10px;
+    background-color: #5cadd3;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    border-bottom: #468cad 3px solid;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*SLIDER SECTION */
+
+
+
+.contenuSlide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+}
+  
+/*.slider_controller 
+{
+    display: none;
+    }*/
+ 
+  /*  .sliderimages
+    {
+       width: 100%;
+       height:auto;
+   }
+/*.first_slider
+{
+
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    }*/
+
+    /*#gallery figure 
+    {
+        display: flex;
+        flex-flow: column;
+    }*/
+
+
+/*.slide_list
+{
+
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+  
+.slide {
+  
+    position: relative;
+    width: 50%;
+    margin: 0;
+}
+.one_slider {
+    display: flex;
+    width: 200%;
+    transition: transform 1s;
+}
+*/
+.navigationslide
+{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+/*img  
+{
+   width: 100%;
+   height: auto;
+}*/
+
+#logohead img 
+{
+    width:100%;
+    height:auto;
+}
+
+.gallery_caption
+{
+    background-color: #0000005e;
+    position: relative;
+}
+.gallery_caption i
+{
+    bottom: 72px;
+    background: #03A9F4;
+    border: 2px solid white;
+    position: relative;
+    float: right;
+    right: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+ 
+
+/* ---------------------------------------- */
+/* ==              BODY               */
+/*---------------------------------------- */
+
+.p_titles 
+{
+	list-style-type:none;
+    padding-left: 0px; /*pour elever le padding de defaut*/
+
+}
+
+.texteBleu {
+    color: #5CABD1;
+}
+
+.texte40 {
+    font-size: 4rem;
+}
+
+.introduction h2, .introduction p
+
+{
+    text-align: center;
+
+}
+
+.lines
+{
+
+ text-align: center;
+ margin-top: -33px;
+}
+
+hr
+{
+    position: relative;
+    top: -15px;
+    display: inline-block;
+    width: 60px;
+    height: 0;
+    margin: 5px;
+    color: #FBFBFB;
+    opacity: 0.3;
+}
+/* section one*/
+
+.ourservices h2, .ourservices p
+{
+ text-align:justify;
+
+}
+
+
+#services ul 
+{
+
+}
+
+/*end */
+#list
+{
+    flex: 1;
+    margin-top: 40px;
+}
+
+/*#ux, #ui, #seo {
+  margin-left: -55px;
+}
+*/
+
+
+
+
+
+/* ---------------------------------------- */
+/* ==         SECOND PROJECT /BODY               */
+/*---------------------------------------- */
+
+/*#secondprojects_list ul li a:hover 
+{
+    position: relative;
+    background: #0088b5;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #01627f;
+    color: #fff;
+}*/
+
+#secondprojects
+{
+    text-align: center;
+    padding-top: 5px;
+    background-color:#f3f3f3de
+}
+#secondprojects p
+{
+    margin-top: -1em;
+}
+#secondprojects_list ul li a {
+    padding: 10px 30px;
+    /*background: #e5e5e5;*/
+}
+
+.nav_menu
+{
+    background-color: #d2d2d2cf;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: auto;
+    /* width: 41%; */
+    padding: 0;
+}
+
+
+.nav_menu li
+{
+ padding: 10px;
+
+}
+
+.nav_menu li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+    
+.nav_menu li:hover
+{
+    background-color: #3BAED7;
+    color: white;
+    font-weight: bold;
+}
+
+/* ---------------------------------------- */
+/* ==  SECOND PROJECT /BODY               */
+/*---------------------------------------- */
+
+
+.block-trait {
+    display: flex;
+    justify-content: center;
+}
+.trait 
+{
+    width: 150px;
+    height: 1px;
+    margin-bottom: 15px;
+    background-color: rgb(235, 235, 235);
+}
+.block-trait 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ 
+
+#conteneur-fleche {
+    visibility: hidden;
+}
+
+.nav_menu ul, li 
+{
+
+border-radius: 4px 4px 4px 4px;
+}
+
+
+/*ICONS 
+
+.icons i
+
+{
+
+
+}
+*/
+
+
+/*#menu_projects li  
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0px;
+ }
+ */
+ 
+ /* ---------------------------------------- */
+ /* ==     END SECOND PROJECT BODY               */
+ /*---------------------------------------- */
+
+ iframe
+ {
+   border: 0;
+   width: 100%;
+   height: auto;
+   position: absolute;
+ }
+
+
+#formulaire
+{
+    background-color: whitesmoke;
+
+}
+/* #formulaire h3 
+{
+    margin-block-start: -2px;
+}    
+*/
+
+
+/* ---------------------------------------- */
+/* ==          END    BODY               */
+/*---------------------------------------- */
+
+.icons  /*remove one padding ; recheck*/
+{
+    color: #5CABD1;
+    padding: 20px 17px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 60px;
+    height: 48px;
+    padding: 30px;
+    float: left;
+    margin-right: 20px;
+}
+.bluedot {
+    position: relative;
+    left: -10px; /*recheck th enegative number */
+    margin-right: 10px;
+    font-size: 3rem;
+    color: #5CABD1;
+}
+.icons .bluedot 
+{
+    display: flex;
+    float: left;
+}
+/*
+.icons i
+{
+
+}
+*/
+.message_button input 
+{ 
+    padding: 5px;
+    color: white;
+    background-color: #5badd3;
+}
+ input 
+    {
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    }
+ 
+iframe 
+{
+    border: 0;
+    width: 100%;
+    height: 480px;
+}
+ 
+
+
+form 
+{
+    background-color: rgba(255,255,255, .8);
+    width: 300px;
+    height: 70%;
+    margin: 40px 150px;
+    padding: 20px;
+    padding-right: 30px;
+    border-radius: 3px;
+}
+
+#conteneur_contact
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(3, 169, 244, 0.23);
+}
+#nous-contacter 
+{
+    position: absolute;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+/* ==     MEDIA Q's                       */
+/*---------------------------------------- */
+
+/* tablet (portrait and landscape) ----------- */
+/* media queries for screens with a width greater then 768 pixels (tablet) */
+/* min-width:768 => iPad, max-width:1024=>iPad Pro */
+
+
+
+@media screen and (min-width:1024px)
+
+{
+
+    header
+    {
+       display: flex;
+        justify-content: space-between;
+    }    
+
+    #logohead
+    {
+
+        display: flex;
+    }
+
+    nav li, .nav_menu li /* to have space around each list item */
+    {
+        padding: 10px; 
+    }
+    nav a:hover { 
+        border-top: 3px solid #5CADD3;
+        padding:20px;
+        color:#5CABD1;
+    }
+
+    /*IMAGE SLIDER SLOGAN*/
+    #slogan
+    {
+
+        padding: 78px;
+        width: 40%;
+        position: absolute;
+        color:white;
+        text-align: left;
+    }
+    #slogan p, a 
+    {
+        line-height: 20px;
+
+    }
+
+    .slider_figure
+    {
+        margin :0px;
+    }
+
+
+    /*#gallery img 
+    {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+    }
+    */
+    #conteneur-fleche
+    {
+        width: 95%;
+        position: absolute;
+        top: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #conteneur-fleche i 
+    {
+        width: 95%;
+        top: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    /* ----------------------------*/
+    /* ==    SECT SERVICES         */
+    /*-----------------------------*/
+    .introduction h2, .introduction p
+    {
+        text-align: center;
+
+    }
+
+
+
+    .introduction h2 
+    {
+        font-size: 38px;
+    }
+    .introduction p 
+    {
+        width: 50%;
+        margin: auto;
+
+    }
+
+    .ourservices h2, .ourservices p 
+    {
+        text-align: left;
+    }
+
+    #services p, #services a 
+    {
+        color: #63686D;
+    }
+    .ourservices
+    {
+        display: flex;
+        flex-direction: row;
+        /*justify-content: space-around;*/
+        margin: 40px auto;
+        /*width: 85%;*/
+    }
+
+    .icones h2 p
+    {
+        text-align: left;
+    }
+  
+    .icones
+    {
+
+        color: #5CABD1;
+        padding: 20px 17px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        box-sizing: border-box;
+        width: 60px;
+        height: 48px;
+        padding: 30px; 
+        float: left;
+    } 
+
+    /* second project*/
+    
+
+    #secondprojects p 
+    {
+
+        width: 50%;
+        margin: auto;
+        margin-bottom:10px;
+    }
+
+    .nav_menu 
+    {
+    margin-top: 18px;
+    background-color: #d2d2d2cf;
+    display: flex;
+   /* justify-content: center;*/
+    list-style-type: none;
+    margin: 40px auto;
+    width: auto;
+    padding: 1px;
+    margin-right: 35%;
+    margin-left: 36%;
+
+    }
+
+    /*#gallery figure
+    {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    }*/ 
+
+    /*#gallery figure 
+    { 
+    flex-flow: column;
+    }*/
+    .gallery_row
+    { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #gallery figure 
+    {
+         display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+     
+    .gallery_caption 
+    {
+        color: white;
+        top: -78px;  /* stick to bottom of img */
+        opacity: 0%;
+    }
+
+    .gallery_row img:hover + figcaption, .gallery_caption:hover {
+        opacity: 100%;
+    }
+
+
+    .gallery_caption i
+    {
+        background: #03A9F4;
+        border: 2px solid white;
+        position: absolute;
+        border-radius: 20px;
+        padding: 10px;
+        top: -20px;
+        right: 4px;
+        bottom: auto;
+    }
+    
+
+    #nous-contacter
+    {
+        position: relative;
+    }
+    
+    #google-map,.contact_info
+    {
+    width: 100%;
+    position: absolute;
+    height: 600px;
+    background-color: rgba(92,173,211, .4);
+    position: absolute;
+    justify-content: flex-end;
+    display: flex; 
+    align-items: center;
+    }
+    
+     
+ 
+    /*form
+    {
+    background-color: rgba(255,255,255, .8);
+    width: 300px;
+    height: 70%;
+    margin: 40px 150px;
+    padding: 20px;
+    padding-right: 30px;
+    border-radius: 3px;
+    }*/
+  
+}
+
+/*  #gallery figcaption 
+    {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 4px;
+    visibility: hidden;
+    }
+      visibility: hidden;
+}       /*background-color: #E5E5E5;
+    padding: 10px;
+    margin-left: 0;
+
+
+
+
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0;
+    width: auto;*/
+
+
+
+/*@media only screen and(min-width:768px)
+{
+
+    #ourservices
+    {
+        flex-direction: column;
+
+    }
+   
+    #ourservices p
+    {
+        width: 50%;
+    }
+    } */
+
+
+
+    
+
