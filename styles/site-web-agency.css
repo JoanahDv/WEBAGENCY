@@ -1,8 +1,11 @@
 
 /* ---------------------------------------- */
-/* ==              end of font            */
+/* ==              FONTS          */
 /*---------------------------------------- */
 
+/* ---------------------------------------- */
+/* == ÉLÉMENTS PRINCIPAUX */
+/*---------------------------------------- */
 
 body
 {
@@ -22,25 +25,20 @@ body
 /* ==              HEADER               */
 /*---------------------------------------- */
 
+
+            /*     LOGO     */
+
 header
 {
-	background-color:#ffffff;
-	position: fixed;
-	 
-  /*opacity: 0.9;*/
-  z-index: 20;/*recheck and correct, 2 isnt enough */
-  top: 0;
-  width: 95%;
-  border-bottom: 1px solid #e5e5e5;
-   
-     /*	justify-content: space-between;
-    align-items: center;
-    position: fixed;
-   	width: 100%;
-    height: 80px;
-    /*background-color: white;*/
+background-color:#ffffff;
+position: fixed;
+z-index: 20; 
+top: 0;
+width: 95%;
+border-bottom: 1px solid #e5e5e5;
     
 }
+
 #logohead
 {
     display: flex;  
@@ -48,32 +46,10 @@ header
     justify-content: center;
     align-items: center;*/
 }
-
-
-h1 span 
+#logohead img 
 {
-    color:#5cadd3;
-}
-
-/*{
-
-    width: 100%;
-    height: auto;
-    margin-top: 5px;
-}
-*/
-#gallery img, img
-{
-    width: 100%;
+    width:100%;
     height:auto;
-}
-.nav_list
-{
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    list-style-type: none;
-    margin: 0px;
 }
 
 header nav ul
@@ -91,19 +67,21 @@ header a
    color: black;
 } 
 
-#slogan
+
+h1 span 
 {
-	text-align: center;
-    margin-bottom: 30px
+    color:#5cadd3;
 }
 
-/*.slogan_slider 
+#gallery img, img
 {
-   margin-top: 142px;
-}*/
+    width: 100%;
+    height:auto;
 
+/*     Navigation      */
 
-/*.nav_menu
+}
+.nav_list
 {
     display: flex;
     justify-content: space-around;
@@ -111,10 +89,18 @@ header a
     list-style-type: none;
     margin: 0px;
 }
-*/
+
+/*     slogan      */
+
+ #slogan
+{
+    text-align: center;
+    margin-bottom: 30px
+}
 
 
-#slogan a {
+#slogan a 
+{
     padding: 8px 10px 8px 10px;
     background-color: #5cadd3;
     color: #ffffff;
@@ -124,84 +110,8 @@ header a
     text-align: center;
     margin-bottom: 30px;
 }
-/*SLIDER SECTION */
-
-
-
-.contenuSlide {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 480px;
-}
-  
-/*.slider_controller 
-{
-    display: none;
-    }*/
  
-  /*  .sliderimages
-    {
-       width: 100%;
-       height:auto;
-   }
-/*.first_slider
-{
 
-    display: flex;
-    position: relative;
-    overflow: hidden;
-    }*/
-
-    /*#gallery figure 
-    {
-        display: flex;
-        flex-flow: column;
-    }*/
-
-
-/*.slide_list
-{
-
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-  
-.slide {
-  
-    position: relative;
-    width: 50%;
-    margin: 0;
-}
-.one_slider {
-    display: flex;
-    width: 200%;
-    transition: transform 1s;
-}
-*/
-.navigationslide
-{
-    position: absolute;
-    z-index: 10;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 60px;
-}
-
-/*img  
-{
-   width: 100%;
-   height: auto;
-}*/
-
-#logohead img 
-{
-    width:100%;
-    height:auto;
-}
 
 .gallery_caption
 {
@@ -220,16 +130,42 @@ header a
     padding: 10px;
 }
  
-
 /* ---------------------------------------- */
-/* ==              BODY               */
+/* ==     SECTION 1 NOS SERVICES           */
 /*---------------------------------------- */
+/*    Title and paragraph      */
+
+.introduction h2, .introduction p
+
+{
+
+    text-align: center;
+
+}
+
+.lines
+{
+    text-align: center;
+    margin-top: -33px;
+}
+hr
+{
+    position: relative; 
+    top: -15px;
+    display: inline-block;
+    width: 60px;
+    height: 0;
+    margin: 5px;
+    color: #FBFBFB;
+    opacity: 0.3;
+}
+
+/*     nos services icons and H3     */
 
 .p_titles 
 {
-	list-style-type:none;
+    list-style-type:none;
     padding-left: 0px; /*pour elever le padding de defaut*/
-
 }
 
 .texteBleu {
@@ -239,74 +175,22 @@ header a
 .texte40 {
     font-size: 4rem;
 }
-
-.introduction h2, .introduction p
-
-{
-    text-align: center;
-
-}
-
-.lines
-{
-
- text-align: center;
- margin-top: -33px;
-}
-
-hr
-{
-    position: relative;
-    top: -15px;
-    display: inline-block;
-    width: 60px;
-    height: 0;
-    margin: 5px;
-    color: #FBFBFB;
-    opacity: 0.3;
-}
-/* section one*/
-
+ 
 .ourservices h2, .ourservices p
 {
  text-align:justify;
 
 }
 
-
-#services ul 
-{
-
-}
-
-/*end */
-#list
+ #list
 {
     flex: 1;
     margin-top: 40px;
 }
 
-/*#ux, #ui, #seo {
-  margin-left: -55px;
-}
-*/
-
-
-
-
-
 /* ---------------------------------------- */
-/* ==         SECOND PROJECT /BODY               */
+/* ==  SECTION 2; NOS PROJECTS+ NAV        */
 /*---------------------------------------- */
-
-/*#secondprojects_list ul li a:hover 
-{
-    position: relative;
-    background: #0088b5;
-    padding-bottom: 7px;
-    border-bottom: 3px solid #01627f;
-    color: #fff;
-}*/
 
 #secondprojects
 {
@@ -326,7 +210,7 @@ hr
 .nav_menu
 {
     background-color: #d2d2d2cf;
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     list-style-type: none;
     margin: auto;
@@ -340,14 +224,17 @@ hr
  padding: 10px;
 
 }
-
-.nav_menu li a
-{
+.nav_menu li a {
     text-decoration: none;
     color: black;
+    text-decoration: none;
+     
+    text-align: center;
+    margin-bottom: 30px;
+    
 }
 
-    
+     
 .nav_menu li:hover
 {
     background-color: #3BAED7;
@@ -356,63 +243,7 @@ hr
 }
 
 /* ---------------------------------------- */
-/* ==  SECOND PROJECT /BODY               */
-/*---------------------------------------- */
-
-
-.block-trait {
-    display: flex;
-    justify-content: center;
-}
-.trait 
-{
-    width: 150px;
-    height: 1px;
-    margin-bottom: 15px;
-    background-color: rgb(235, 235, 235);
-}
-.block-trait 
-{
-    display: flex;
-    justify-content: center;
-}
-
-
-
- 
-
-#conteneur-fleche {
-    visibility: hidden;
-}
-
-.nav_menu ul, li 
-{
-
-border-radius: 4px 4px 4px 4px;
-}
- 
- 
- /* ---------------------------------------- */
- /* ==     END SECOND PROJECT BODY               */
- /*---------------------------------------- */
-
- iframe
- {
-   border: 0;
-   width: 100%;
-   height: auto;
-   position: absolute;
- }
-
-
-#formulaire
-{
-    background-color: whitesmoke;
-
-}
-
-/* ---------------------------------------- */
-/* ==          END    BODY               */
+/* ==  SECTION2; NOS PROJECTS IMAGES        */
 /*---------------------------------------- */
 
 .icons  /*remove one padding ; recheck*/
@@ -439,13 +270,57 @@ border-radius: 4px 4px 4px 4px;
 {
     display: flex;
     float: left;
+} 
+
+.block-trait
+{
+    display: flex;
+    justify-content: center;
 }
-/*
-.icons i
+.trait 
+{
+    width: 150px;
+    height: 1px;
+    margin-bottom: 15px;
+    background-color: rgb(235, 235, 235);
+}
+.block-trait 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+#conteneur-fleche {
+    visibility: hidden;
+}
+
+/*     NOS PROJETS NAV    */
+.nav_menu ul, li 
 {
 
+border-radius: 4px 4px 4px 4px;
 }
-*/
+ 
+ 
+ /* ---------------------------------------- */
+ /* ==             FOOTER                    */
+ /*---------------------------------------- */
+
+ iframe
+ {
+   border: 0;
+   width: 100%;
+   height: auto;
+   position: absolute;
+ }
+
+#formulaire
+{
+    background-color: whitesmoke;
+
+}
+  
 .message_button input 
 { 
     padding: 5px;
@@ -538,19 +413,34 @@ form
         color:#5CABD1;
     }
 
+
+
+
+    .nav_menu li a 
+    {
+    text-decoration: none;
+    color: black;
+     /* background-color: #5cadd3; */
+    /* color: #ffffff; */
+    text-decoration: none;
+    /* border-radius: 0px; */
+    /* border-bottom: #468cad 3px solid; */
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
     /*IMAGE SLIDER SLOGAN*/
     #slogan
     {
 
-        padding: 78px;
-        width: 40%;
-        position: absolute;
-        color:white;
+        /*padding: 78px;*/
+         width: 100%;
+         color:white;
         text-align: left;
     }
     #slogan p, a 
     {
-        line-height: 20px;
+        line-height: 30px;
 
     }
 
@@ -705,7 +595,8 @@ form
     {
         color: white;
         top: -78px;  /* stick to bottom of img */
-        opacity: 0%;
+       /* opacity: 0%;*/
+        /*position: relative;*/
     }
 
     .gallery_row img:hover + figcaption, .gallery_caption:hover {
@@ -734,12 +625,11 @@ form
     #google-map,.contact_info
     {
     width: 100%;
-    position: absolute;
     height: 600px;
     background-color: rgba(92,173,211, .4);
     position: absolute;
-    justify-content: flex-end;
-    display: flex; 
+    display: flex;
+    justify-content: flex-end; 
     align-items: center;
     }
     
