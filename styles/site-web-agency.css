@@ -118,7 +118,8 @@ h1 span
 }
 #slogan figure
 {
-    margin:0px;     
+    margin:0px;
+    padding-bottom: 20px;     
 }
 
 .slogan_caption
@@ -131,7 +132,7 @@ h1 span
 
     color: white;
     background-color: rgb(92,173,211);
-    /* padding: 10px 15px; */
+    padding:8px;
     border-radius: 3px;
     /* border-bottom: 3px solid rgb(68,148,187); */
     text-decoration: none;
@@ -200,8 +201,8 @@ h1 span
 hr
 {
     position: relative; 
-    top: -15px;
-    display: inline-block;
+   /* top: -15px;
+    display: inline-block*/
     width: 60px;
     height: 0;
     margin: 5px;
@@ -222,7 +223,7 @@ hr
 }
 
 .texte40 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
  
 .ourservices h2, .ourservices p
@@ -391,6 +392,7 @@ flex-wrap: wrap;
 /*     NOS PROJETS NAV    */
  
  
+ 
  /* ---------------------------------------- */
  /* ==             FOOTER                    */
  /*---------------------------------------- */
@@ -550,12 +552,12 @@ footer
     }
 
     .next
-    {
-        position: absolute;
-        top: 60%;
-        color: white;
-        left: 96.5%;
-    }
+{
+    position: absolute;
+    top: 60%;
+    color: white;
+    left: 96.5%;
+}
 
 
     /*#gallery img 
