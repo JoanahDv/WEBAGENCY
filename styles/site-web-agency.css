@@ -1,16 +1,21 @@
-
-/* ---------------------------------------- */
+* ---------------------------------------- */
 /* ==              FONTS          */
 /*---------------------------------------- */
-
+@font-face 
+{
+    font-family: 'Roboto-Regular';
+    src:  url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /* ---------------------------------------- */
 /* == ÉLÉMENTS PRINCIPAUX */
 /*---------------------------------------- */
 
 body
 {
-	font-family: 'roboto';
-	width: 100%;
+    font-family: 'Roboto-Regular'
+    width: 100%;
     margin: 0px;
 }
  
@@ -35,13 +40,14 @@ position: fixed;
 z-index: 20; 
 top: 0;
 width: 95%;
+height:auto;
 border-bottom: 1px solid #e5e5e5;
     
 }
 
 #logohead
 {
-    display: flex;  
+    /*display: flex;*/  
     /*flex-direction: column-reverse;
     justify-content: center;
     align-items: center;*/
@@ -50,7 +56,17 @@ border-bottom: 1px solid #e5e5e5;
 {
     width:100%;
     height:auto;
+    margin-top: 5px;
+    margin-bottom: 8px;
+
 }
+
+header li:hover;
+{
+    padding: 20px 10px;
+    border-top: 3px solid rgb(92,173,211);
+}
+
 
 header nav ul
 {
@@ -65,7 +81,8 @@ header a
 {
    text-decoration:none;
    color: black;
-} 
+}  
+
 
 
 h1 span 
@@ -73,7 +90,9 @@ h1 span
     color:#5cadd3;
 }
 
-#gallery img, img
+ 
+
+  img
 {
     width: 100%;
     height:auto;
@@ -92,13 +111,38 @@ h1 span
 
 /*     slogan      */
 
- #slogan
+ #slogan 
 {
     text-align: center;
-    margin-bottom: 30px
+    padding-top: 127px;
+}
+#slogan figure
+{
+    margin:0px;     
 }
 
+.slogan_caption
+{
 
+}
+    
+.slogan_caption a , #conteneur_contact a
+{
+
+    color: white;
+    background-color: rgb(92,173,211);
+    /* padding: 10px 15px; */
+    border-radius: 3px;
+    /* border-bottom: 3px solid rgb(68,148,187); */
+    text-decoration: none;
+} 
+
+
+.previous, .next 
+{
+    display: none;
+}
+/*
 #slogan a 
 {
     padding: 8px 10px 8px 10px;
@@ -109,7 +153,7 @@ h1 span
     border-bottom: #468cad 3px solid;
     text-align: center;
     margin-bottom: 30px;
-}
+}*/
  
 
 
@@ -117,7 +161,9 @@ h1 span
 {
     background-color: #0000005e;
     position: relative;
-}
+    margin-top: -82px; 
+    color: white;
+ }
 .gallery_caption i
 {
     bottom: 72px;
@@ -135,18 +181,21 @@ h1 span
 /*---------------------------------------- */
 /*    Title and paragraph      */
 
-.introduction h2, .introduction p
+.introduction h1, .introduction p
 
 {
-
-    text-align: center;
+ text-align: center;
 
 }
 
 .lines
 {
-    text-align: center;
-    margin-top: -33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    width: 40%;
+    margin: auto;
 }
 hr
 {
@@ -178,15 +227,59 @@ hr
  
 .ourservices h2, .ourservices p
 {
- text-align:justify;
+ text-align:initial;
+ display: flex;
 
 }
+#description ul 
+{
+padding-left: 0px;
+list-style: none;
+flex-wrap: wrap;
+}
+/*
+#description li 
+{
+    display: flex;
+    flex-wrap: wrap;
+}*/
 
  #list
 {
     flex: 1;
     margin-top: 40px;
 }
+
+.icones h1 p
+{
+    text-align: left;
+}
+
+.icones
+{
+    color: #5CABD1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-sizing: border-box;
+    float: left;
+    margin-right:40px; 
+} 
+
+.icones-circle
+{
+    position: absolute;
+    padding-top: 15px;
+    margin-left: -7px;
+}
+
+.icones-graph
+{
+    padding: 13px;
+}
+
+
+ 
+
 
 /* ---------------------------------------- */
 /* ==  SECTION 2; NOS PROJECTS+ NAV        */
@@ -219,6 +312,7 @@ hr
 }
 
 
+
 .nav_menu li
 {
  padding: 10px;
@@ -233,7 +327,6 @@ hr
     margin-bottom: 30px;
     
 }
-
      
 .nav_menu li:hover
 {
@@ -296,24 +389,11 @@ hr
 }
 
 /*     NOS PROJETS NAV    */
-.nav_menu ul, li 
-{
-
-border-radius: 4px 4px 4px 4px;
-}
  
  
  /* ---------------------------------------- */
  /* ==             FOOTER                    */
  /*---------------------------------------- */
-
- iframe
- {
-   border: 0;
-   width: 100%;
-   height: auto;
-   position: absolute;
- }
 
 #formulaire
 {
@@ -328,53 +408,56 @@ border-radius: 4px 4px 4px 4px;
     background-color: #5badd3;
 }
  input 
-    {
-    width: 100%;
-    height: 25px;
-    border-radius: 3px;
-    margin-bottom: 15px;
-    padding-left: 10px;
-    }
- 
-iframe 
 {
-    border: 0;
-    width: 100%;
-    height: 480px;
+width: 100%;
+height: 25px;
+border-radius: 3px;
+margin-bottom: 15px;
+padding-left: 10px;
 }
- 
 
 
 form 
 {
-    background-color: rgba(255,255,255, .8);
-    width: 300px;
-    height: 70%;
-    margin: 40px 150px;
-    padding: 20px;
-    padding-right: 30px;
-    border-radius: 3px;
+padding: 20px;  
+border-radius: 3px;
+}
+
+#nous-contacter 
+{
+background-color: #00bcd42e;
+width: 100%;
+
 }
 
 #conteneur_contact
 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: absolute;
-    width: 100%;
-    background-color: rgba(3, 169, 244, 0.23);
-}
-#nous-contacter 
+
+display: flex;
+align-items: center;
+justify-content: center;
+/* position: absolute; */
+ }
+
+input
 {
-    position: absolute;
-    padding-top: 30px;
+     /* width: 100%; */
+    /* height: auto; */
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding-left: 2px;
 }
 
-
-
-
-
+textarea
+{
+    width: 100%;
+    height: 89px;
+}
+ 
+footer 
+{
+    text-align: center;
+}
 
 
 /* ---------------------------------------- */
@@ -401,8 +484,12 @@ form
     {
 
         display: flex;
+        margin-left: 100px;
     }
-
+    header nav  
+    {
+        margin-right: 100px;
+    }  
     nav li, .nav_menu li /* to have space around each list item */
     {
         padding: 10px; 
@@ -432,21 +519,42 @@ form
     /*IMAGE SLIDER SLOGAN*/
     #slogan
     {
-
-        /*padding: 78px;*/
-         width: 100%;
-         color:white;
+        margin-top: 75px;
+        width: 100%;
+        color:white;
         text-align: left;
+        padding-top: 0px
+
     }
     #slogan p, a 
     {
         line-height: 30px;
 
     }
+    .slogan_caption
+    {
+        position: absolute;
+        top: 54%;
+        margin-left: 105px;
+    }
 
     .slider_figure
     {
         margin :0px;
+    }
+    .previous
+    {
+    position: absolute;
+    top: 60%;
+    color: white;
+    }
+
+    .next
+    {
+        position: absolute;
+        top: 60%;
+        color: white;
+        left: 96.5%;
     }
 
 
@@ -459,7 +567,7 @@ form
         margin: auto;
         padding: 0;
     }
-    */
+    
     #conteneur-fleche
     {
         width: 95%;
@@ -477,8 +585,8 @@ form
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-
+    }*
+    /
 
     /* ----------------------------*/
     /* ==    SECT SERVICES         */
@@ -506,11 +614,13 @@ form
     {
         text-align: left;
     }
+    .ourservices figure 
+{
+      width: 100%;
+    height:auto;
+}
 
-    #services p, #services a 
-    {
-        color: #63686D;
-    }
+     
     .ourservices
     {
         display: flex;
@@ -529,14 +639,11 @@ form
     {
 
         color: #5CABD1;
-        padding: 20px 17px;
         border: 1px solid #ccc;
         border-radius: 50%;
         box-sizing: border-box;
-        width: 60px;
-        height: 48px;
-        padding: 30px; 
         float: left;
+        margin-right:60px; 
     } 
 
     /* second project*/
@@ -594,9 +701,9 @@ form
     .gallery_caption 
     {
         color: white;
-        top: -78px;  /* stick to bottom of img */
-       /* opacity: 0%;*/
-        /*position: relative;*/
+          /* stick to bottom of img */
+       opacity: 0%;
+        position: relative;
     }
 
     .gallery_row img:hover + figcaption, .gallery_caption:hover {
@@ -635,7 +742,7 @@ form
     
      
  
-    /*form
+    form
     {
     background-color: rgba(255,255,255, .8);
     width: 300px;
@@ -644,7 +751,7 @@ form
     padding: 20px;
     padding-right: 30px;
     border-radius: 3px;
-    }*/
+    }
   
 }
 
@@ -696,4 +803,3 @@ form
 
 
     
-

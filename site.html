@@ -27,7 +27,8 @@
 <body>
     <div class="bloc_page"> 
 
-        <!--HEADER LOGO ET NAV-->
+
+        <!-- HOME LOGO ET NAV-->
         <header>
             <div id="logohead">
                 <img src="webagency_images/images/logo.png" alt="logoweb"/>
@@ -36,101 +37,88 @@
             <!--NAVIGATION BARS-->
             <nav>
                 <ul>
-                    <li><a href="current">Accueil</a></li>
+                    <li><a href="#header">Accueil</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="portfolio.html">portfolio</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="#gallery">portfolio</a></li>
+                    <li><a href="#nous-contacter">Contact</a></li>
                 </ul>
             </nav>
-        </header> 
+        </header>
 
-        <!--END HEADERLOGO ET NAV-->
-
-
-    <!--SECTION SLOGAN SLIDER HEAD-->
-
-        <div id="slogan">
+    <!--SECTION SLIDER -->
+        <section id="slogan">
             <figure>
+                <a class="previous" href="#slide2">
+                    <i class="fa fa-chevron-left"></i>
+                </a>
+
                 <img class="sliderimages" src="webagency_images/images/slider/bg1.jpg" alt="fille"/>
-                <figcaption class="gallery_caption"> 
-                    <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS!</h1>
+                <a class="next" href="#slide1">
+                    <i class="fa fa-chevron-right"></i>
+                </a>
+                <figcaption class="slogan_caption"> 
+                <h1><span>WEBAGENCY</span>: L'AGENCE DE TOUS VOS PROJETS!</h1>
                     <p>Vous avez un projet web? La WebAgency vous aide à le réaliser !</p>
                     <a href="#">Plus d'infos</a>
                 </figcaption>
-            </figure>
-        </div>
-
-       <!-- <div id="slogan">
-            <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS!</h1>
-            
-            <p>Vous avez un projet web? La WebAgency vous aide à le réaliser !</p>
-            <a href="#">Plus d'infos</a>
-        </div>
-        <figure class="slider_figure">
-            <img class="sliderimages" src="webagency_images/images/slider/bg1.jpg" alt="fille"/>
-        </figure> -->
-        
-
-        <!-- SECTION SLOGAN -->
-
+                <div id="trait_bleu"></div>
+                </figure>
+        </section>
+ 
         <!--NOS SERVICES SERICVES-->
-
-
         <section id="services">
             <div class="introduction">
-                <h2>NOS SERVICES</h2>
+                <h1>NOS SERVICES</h1>
                 <div class="lines"> 
                     <hr>
                     <span class="texteBleu texte40">•</span>
                     <hr>
                 </div>
-
-                <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+                <p>Elle réunit des compétences en développement et en art graphique, son rôle est de vous proposer une solution web adaptée à votre projet.Chez WEB AGENCY notre métier est avant tout technique, mais nous accompagnons nos clients tout au long du projet
                 </p>
             </div>
-            
             <div class="ourservices">
                 <figure>
                     <img src="webagency_images/images/main-feature.png" alt="image ordinateur"/>
-                </figure>
+                </figure> 
 
                 <div id="description">
-                    <ul class="p_titles">
+                    <ul>
                         <li>
                             <div class="icones">
-                                <i class="fa fa-line-chart"></i>
-                                <i class="fa fa-circle"></i>
+                                <i class="fa fa-line-chart icones-graph"></i>
+                                <i class="fa fa-circle icones-circle"></i>
                             </div>
                             <div>
-                            <h3>UX design</h3>
-                            <p>L'UX (expérience utilisateur) désigne la qualité de l’expérience vécue par l’utilisateur dans toute situation d’interaction.</p>
+                                <h3>UX design</h3>
+                                <p>L'UX (expérience utilisateur) désigne la qualité de l’expérience vécue par l’utilisateur dans toute situation d’interaction.</p>
                             </div>
                         </li>
                         <li>
                             <div class="icones">
-                                <i class="fa fa-line-chart"></i>
-                                <i class="fa fa-circle"></i>
+                                <i class="fa fa-cubes icones-graph"></i>
+                                <i class="fa fa-circle icones-circle"></i>
                             </div>
-                            <div>
-                            <h3>UX design</h3>
-                            <p>L'UX (expérience utilisateur) désigne la qualité de l’expérience vécue par l’utilisateur dans toute situation d’interaction.</p>
-                            </div>
-                        </li>
+                         
+                        <div>
+                            <h3>UI design</h3>
+                            <p>User interface : Le design de l'interface utilisateur correspond à l'interface par laquelle l'utilisateur interagit avec le site internet. Le but est de faire en sorte que le site soit simple à utiliser, tout en étant design et agréable pour l'utilisateur.</p>
+                        </div>
+                    </li>
                         <li>
                             <div class="icones">
-                                <i class="fa fa-line-chart"></i>
-                                <i class="fa fa-circle"></i>
+                                <i class="fa fa-pie-chart icones-graph"></i>
+                                <i class="fa fa-circle icones-circle"></i>
                             </div>
                             <div>
-                            <h3>UX design</h3>
-                            <p>L'UX (expérience utilisateur) désigne la qualité de l’expérience vécue par l’utilisateur dans toute situation d’interaction.</p>
+                            <h3>SEO</h3>
+                            <p>Nous construisons aujourd’hui votre visibilité pour demain ! Nous pensons le référencement et l’optimisation du SEO dès les toutes premières étapes de la création ou de la refonte de votre site internet.</p>
                             </div>
                         </li>
                     </ul>
-                </div>
+                 </div>
             </div>
-        </section>
-            
+        </section>            
             <!-- NOS  PROJETS-->
 
         <section id="secondprojects">
@@ -152,13 +140,13 @@
             </ul>
 
 <!-- LES IMAGES -->
-            <div id="gallery">
+            <section id="gallery">
                 <div class="gallery_row">
                     <figure>
                         <img src="webagency_images/images/portfolio/01.jpg" alt="img1"/>
                         <figcaption class="gallery_caption"> 
                             <h3>Portfolio 1</h3>
-                        Projet OpenClassrooms
+                            LUNETTES POUR NOUS 
                             <i class="fa fa-eye" aria-hidden="true"></i>
                         </figcaption>
                     </figure>
@@ -167,7 +155,7 @@
                         <img src="webagency_images/images/portfolio/02.jpg" alt="img2"/>
                         <figcaption class="gallery_caption"> 
                             <h3>Portfolio 2</h3>
-                        Projet OpenClassrooms
+                            ATELIER PAPIER
                             <i class="fa fa-eye" aria-hidden="true"></i>
                         </figcaption>
                     </figure>
@@ -177,7 +165,7 @@
                         <img src="webagency_images/images/portfolio/03.jpg" alt="img3"/>
                         <figcaption class="gallery_caption"> 
                             <h3>Portfolio 3</h3>
-                        Projet OpenClassrooms
+                            POMPADOUR ORIGINAL
                             <i class="fa fa-eye" aria-hidden="true"></i>
                         </figcaption>
                     </figure>
@@ -186,7 +174,7 @@
                         <img src="webagency_images/images/portfolio/04.jpg" alt="img4"/>
                         <figcaption class="gallery_caption"> 
                             <h3>Portfolio 4</h3>
-                            Projet OpenClassrooms
+                            DIY TEMPLATES
                             <i class="fa fa-eye" aria-hidden="true"></i>
                         </figcaption>
                     </figure>
@@ -198,7 +186,7 @@
                         <img src="webagency_images/images/portfolio/05.jpg" alt="img5">
                         <figcaption class="gallery_caption"> 
                             <h3>Portfolio 5</h3>
-                            Projet OpenClassrooms
+                            THE SHOPPING BAG
                             <i class="fa fa-eye" aria-hidden="true"></i>
                         </figcaption>
                     </figure>
@@ -225,12 +213,12 @@
                         <img src="webagency_images/images/portfolio/08.jpg" alt="img8"/>
                         <figcaption class="gallery_caption"> 
                             <h3>Portfolio 8</h3>
-                            Projet OpenClassrooms
+                            THE OFFICE  
                             <i class="fa fa-eye" aria-hidden="true"></i>
                         </figcaption>
                     </figure>
                 </div>
-            </div>
+            </section>
         </section>
 
         <!--CONTACT SECTION-->
@@ -251,6 +239,9 @@
                 </form>  
             </div>
         </section>
+        <footer id="footer" class="main-footer">
+            <span>© 2020 Web Agency.</span>
+        </footer>
     </div>       
 </body>
 </html>
