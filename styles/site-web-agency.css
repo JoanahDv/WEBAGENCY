@@ -127,16 +127,26 @@ h1 span
 
 }
     
-.slogan_caption a , #conteneur_contact a
+/*.slogan_caption a , #conteneur_contact a
 {
 
     color: white;
     background-color: rgb(92,173,211);
     padding:8px;
     border-radius: 3px;
-    /* border-bottom: 3px solid rgb(68,148,187); */
+    /* border-bottom: 3px solid rgb(68,148,187); 
     text-decoration: none;
-} 
+} */
+button {
+    background-color: rgb(92,173,211);
+    color:white;
+    padding: 7px;
+    border-color:rgb(92,173,211);
+    font-size: 14px;
+    border-radius: 3px;
+
+
+}
 
 
 .previous, .next 
@@ -418,6 +428,12 @@ margin-bottom: 15px;
 padding-left: 10px;
 }
 
+ iframe
+{
+    width: 100%;
+    border-width: 0px;
+
+} 
 
 form 
 {
@@ -518,6 +534,8 @@ footer
     margin-bottom: 30px;
     }
 
+
+
     /*IMAGE SLIDER SLOGAN*/
     #slogan
     {
@@ -528,6 +546,23 @@ footer
         padding-top: 0px
 
     }
+    #slogan a 
+
+    {
+
+    z-index: 2;
+    background: rgba(0,0,0,.4);
+    color: rgb(255,255,255);
+    text-decoration: none;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    position: absolute;
+    
+    display: flex;
+    align-items: center;
+     
+    }
     #slogan p, a 
     {
         line-height: 30px;
@@ -536,59 +571,46 @@ footer
     .slogan_caption
     {
         position: absolute;
-        top: 54%;
-        margin-left: 105px;
+        display: flex;
+        width: 95%;
+        /*top: 54%;
+        margin-left: 105px;*/
+     }
+     #slogan div 
+     {
+        padding-left: 11%;
+        top:40%;
+     }
+    
+    .next
+    {
+        right: 0px
     }
 
     .slider_figure
     {
         margin :0px;
     }
+    /*
     .previous
     {
     position: absolute;
-    top: 60%;
+    /*top: 60%;
     color: white;
+    right: 30px
     }
 
     .next
-{
+    {
     position: absolute;
-    top: 60%;
+    /*top: 60%;
     color: white;
     left: 96.5%;
-}
-
-
-    /*#gallery img 
+    }*/   
+      .previous, .next 
     {
-
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: auto;
-        padding: 0;
     }
-    
-    #conteneur-fleche
-    {
-        width: 95%;
-        position: absolute;
-        top: 50%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #conteneur-fleche i 
-    {
-        width: 95%;
-        top: 50%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }*
-    /
 
     /* ----------------------------*/
     /* ==    SECT SERVICES         */
@@ -618,7 +640,7 @@ footer
     }
     .ourservices figure 
 {
-      width: 100%;
+    width: 100%;
     height:auto;
 }
 
@@ -647,6 +669,15 @@ footer
         float: left;
         margin-right:60px; 
     } 
+    .lines 
+    {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    width: 12%;
+    margin: auto;
+    }
 
     /* second project*/
     
