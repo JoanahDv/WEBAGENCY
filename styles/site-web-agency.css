@@ -1,4 +1,4 @@
-* ---------------------------------------- */
+/*---------------------------------------- */
 /* ==              FONTS          */
 /*---------------------------------------- */
 @font-face 
@@ -447,7 +447,9 @@ border-radius: 3px;
 width: 100%;
 
 }*/
-
+#nous-contacter {
+background-color: #00bcd440;
+}
 
 
 #conteneur_contact #google_map
@@ -556,14 +558,9 @@ footer
     background: rgba(0,0,0,.4);
     color: rgb(255,255,255);
     text-decoration: none;
-    height: 70px;
-    width: 70px;
-    border-radius: 35px;
     position: absolute;
-    
     display: flex;
     align-items: center;
-     
     }
     #slogan p, a 
     {
@@ -589,6 +586,20 @@ footer
         align-items: center;
     }
     
+    #slogan .next
+    {
+    height: 84px;
+    width: 40px;
+    border-radius: 90px 0 0 90px;     
+    }
+     
+     #slogan .previous 
+    {
+    height: 84px;
+    width: 40px;
+    border-radius: 0 90px 90px 0
+     }
+ 
     .next
     {
         right: 0px
@@ -598,22 +609,7 @@ footer
     {
         margin :0px;
     }
-    /*
-    .previous
-    {
-    position: absolute;
-    /*top: 60%;
-    color: white;
-    right: 30px
-    }
-
-    .next
-    {
-    position: absolute;
-    /*top: 60%;
-    color: white;
-    left: 96.5%;
-    }*/   
+     
       .previous, .next 
     {
         display: flex;
@@ -646,10 +642,10 @@ footer
         text-align: left;
     }
     .ourservices figure 
-{
+    {
     width: 100%;
     height:auto;
-}
+    }
 
      
     .ourservices
@@ -702,8 +698,7 @@ footer
     margin-top: 18px;
     background-color: #d2d2d2cf;
     display: flex;
-   /* justify-content: center;*/
-    list-style-type: none;
+     list-style-type: none;
     margin: 40px auto;
     width: auto;
     padding: 1px;
@@ -711,18 +706,7 @@ footer
     margin-left: 36%;
 
     }
-
-    /*#gallery figure
-    {
-    width: 100%;
-    height: auto;
-    margin-top: 0;
-    }*/ 
-
-    /*#gallery figure 
-    { 
-    flex-flow: column;
-    }*/
+ 
     .gallery_row
     { 
         display: flex;
@@ -773,7 +757,6 @@ footer
     justify-content: flex-end;
     }
     
-    
 
     #nous-contacter
     {
@@ -788,18 +771,7 @@ footer
     height: 600px;
     border: 0;
     }
-     /*
-    #google-map, #conteneur_contact{
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    }*/
     
-     
- 
     form
     {
     background-color: rgba(255,255,255, .8);
@@ -812,51 +784,7 @@ footer
     }
   
 }
-
-/*  #gallery figcaption 
-    {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    bottom: 4px;
-    visibility: hidden;
-    }
-      visibility: hidden;
-}       /*background-color: #E5E5E5;
-    padding: 10px;
-    margin-left: 0;
-
-
-
-
-
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 40px auto;
-    padding: 0;
-    width: auto;*/
-
-
-
-/*@media only screen and(min-width:768px)
-{
-
-    #ourservices
-    {
-        flex-direction: column;
-
-    }
-   
-    #ourservices p
-    {
-        width: 50%;
-    }
-    } */
+ 
 
 
 
