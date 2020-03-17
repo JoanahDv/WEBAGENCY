@@ -596,10 +596,13 @@ footer
         margin :0px;
     } 
      
- 
     .next
     {
-        right: 3px;
+        right: 0px;
+    }
+    .next i
+    {
+     padding-left: 20px;
     }
 
      #slogan .previous 
@@ -767,6 +770,7 @@ footer
     {
         position: relative;
     }
+
     iframe, #conteneur_contact 
     {
 
