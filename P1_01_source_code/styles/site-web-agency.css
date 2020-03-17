@@ -768,7 +768,7 @@ footer
     {
         position: relative;
     }
-/*
+
     iframe, #conteneur_contact 
     {
 
@@ -777,7 +777,7 @@ footer
     height: 600px;
     border: 0;
     }
-    */
+    
     form
     {
     background-color: rgba(255,255,255, .8);
