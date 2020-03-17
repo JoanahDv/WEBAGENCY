@@ -788,6 +788,11 @@ footer
     padding-right: 30px;
     border-radius: 3px;
     }
+    
+    .main-footer
+    {
+        padding-top:600px;
+    }
   
 }
  
