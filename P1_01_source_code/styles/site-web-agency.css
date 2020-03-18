@@ -80,7 +80,7 @@ header nav ul
 header a 
 {
    text-decoration:none;
-   color: black;
+   color: #5f5b5b;
 }  
 
 
@@ -121,19 +121,7 @@ h1 span
     margin:0px;
     padding-bottom: 20px;     
 }
-
  
-    
-/*.slogan_caption a , #conteneur_contact a
-{
-
-    color: white;
-    background-color: rgb(92,173,211);
-    padding:8px;
-    border-radius: 3px;
-    /* border-bottom: 3px solid rgb(68,148,187); 
-    text-decoration: none;
-} */
 button {
     background-color: rgb(92,173,211);
     color:white;
@@ -141,8 +129,6 @@ button {
     border-color:rgb(92,173,211);
     font-size: 14px;
     border-radius: 3px;
-
-
 }
 
 
@@ -150,18 +136,6 @@ button {
 {
     display: none;
 }
-/*
-#slogan a 
-{
-    padding: 8px 10px 8px 10px;
-    background-color: #5cadd3;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 4px;
-    border-bottom: #468cad 3px solid;
-    text-align: center;
-    margin-bottom: 30px;
-}*/
  
 
 
@@ -245,12 +219,7 @@ padding-left: 0px;
 list-style: none;
 flex-wrap: wrap;
 }
-/*
-#description li 
-{
-    display: flex;
-    flex-wrap: wrap;
-}*/
+ 
 
  #list
 {
@@ -300,11 +269,7 @@ flex-wrap: wrap;
     background-color:#f3f3f3de;
     padding-bottom: 30px;
 }
-/*
-#secondprojects p
-{
-    margin-top: -1em;
-}*/
+ 
 #secondprojects_list ul li a {
     padding: 10px 30px;
     /*background: #e5e5e5;*/
@@ -464,8 +429,7 @@ justify-content: center;
 
 input
 {
-     /* width: 100%; */
-    /* height: auto; */
+     
     border-radius: 3px;
     margin-bottom: 15px;
     padding-left: 2px;
@@ -473,8 +437,8 @@ input
 
 textarea
 {
-    width: 100%;
-    height: 89px;
+    width: 100% ;
+    height: 89px ;
 }
  
 footer 
@@ -506,21 +470,21 @@ footer
     #logohead
     {
 
-        display: flex;
-        margin-left: 100px;
+        display: flex ;
+        margin-left: 100px ;
     }
     header nav  
     {
-        margin-right: 100px;
+        margin-right: 100px ;
     }  
     nav li, .nav_menu li /* to have space around each list item */
     {
         padding: 10px; 
     }
     nav a:hover { 
-        border-top: 3px solid #5CADD3;
-        padding:20px;
-        color:#5CABD1;
+        border-top: 3px solid #5CADD3 ;
+        padding: 20px ;
+        color: black ;
     }
 
 
@@ -528,11 +492,11 @@ footer
 
     .nav_menu li a 
     {
-    text-decoration: none;
-    color: black;
+    text-decoration: none ;
+    color: black ;
      /* background-color: #5cadd3; */
     /* color: #ffffff; */
-    text-decoration: none;
+    text-decoration: none ;
     /* border-radius: 0px; */
     /* border-bottom: #468cad 3px solid; */
     text-align: center;
@@ -576,7 +540,7 @@ footer
         /*top: 54%;
         margin-left: 105px;*/
      }
-     #slogan div 
+    .caption 
      {
         padding-left: 11%;
         top:40%;
@@ -613,9 +577,30 @@ footer
     height: 84px;
     width: 40px;
     border-radius: 0 90px 90px 0
-     }
- 
+    }
 
+    #barline
+    {
+    position: absolute;
+    width: 100%;
+    bottom: -130px;
+    display: flex;
+    justify-content: flex-start;
+    }
+
+    #ligne_bleu 
+    {
+    background: rgb(092,173,211);
+    width: 15%;
+    height: 5px;
+    }
+
+    #ligne_claire
+    {
+    background: rgba(000,000,000,0.1);
+    width: 85%;
+    height: 5px;
+    }
     /* ----------------------------*/
     /* ==    SECT SERVICES         */
     /*-----------------------------*/
@@ -624,8 +609,6 @@ footer
         text-align: center;
 
     }
-
-
 
     .introduction h2 
     {
@@ -706,7 +689,15 @@ footer
     margin-left: 36%;
 
     }
- 
+    #secondprojects i {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-top: 10px solid rgb(068,148,187);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    opacity: 0;
+} 
     .gallery_row
     { 
         display: flex;
@@ -729,15 +720,6 @@ footer
     opacity: 0;
     position: relative;
      }  
-    
-
-    /*
-        color: white;
-          /* stick to bottom of img 
-       opacity: 0%;
-        position: relative;
-        margin-top: -105px;
-    }*/
 
     .gallery_row img:hover + figcaption, .gallery_caption:hover {
         opacity: 100%;
