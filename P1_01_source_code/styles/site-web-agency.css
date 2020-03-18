@@ -82,16 +82,7 @@ header a
    text-decoration:none;
    color: black;
 }  
-
-
-
-h1 span 
-{
-    color:#5cadd3;
-}
-
  
-
   img
 {
     width: 100%;
@@ -122,19 +113,13 @@ h1 span
     padding-bottom: 20px;     
 }
 
- 
-    
-/*.slogan_caption a , #conteneur_contact a
+ h1 span 
 {
-
-    color: white;
-    background-color: rgb(92,173,211);
-    padding:8px;
-    border-radius: 3px;
-    /* border-bottom: 3px solid rgb(68,148,187); 
-    text-decoration: none;
-} */
-button {
+    color:#5cadd3;
+}
+ 
+button 
+{
     background-color: rgb(92,173,211);
     color:white;
     padding: 7px;
@@ -341,8 +326,11 @@ flex-wrap: wrap;
 .nav_menu li:hover
 {
     background-color: #3BAED7;
-    color: white;
     font-weight: bold;
+}
+.nav_menu li:hover a
+{
+    color: white;
 }
 
 /* ---------------------------------------- */
@@ -700,7 +688,7 @@ footer
     width: auto;
     padding: 1px;
     margin-right: 35%;
-    margin-left: 36%;
+    margin-left: 35 %;
 
     }
  
