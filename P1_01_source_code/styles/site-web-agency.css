@@ -82,7 +82,16 @@ header a
    text-decoration:none;
    color: black;
 }  
+
+
+
+h1 span 
+{
+    color:#5cadd3;
+}
+
  
+
   img
 {
     width: 100%;
@@ -113,13 +122,19 @@ header a
     padding-bottom: 20px;     
 }
 
- h1 span 
-{
-    color:#5cadd3;
-}
  
-button 
+    
+/*.slogan_caption a , #conteneur_contact a
 {
+
+    color: white;
+    background-color: rgb(92,173,211);
+    padding:8px;
+    border-radius: 3px;
+    /* border-bottom: 3px solid rgb(68,148,187); 
+    text-decoration: none;
+} */
+button {
     background-color: rgb(92,173,211);
     color:white;
     padding: 7px;
@@ -688,7 +703,7 @@ footer
     width: auto;
     padding: 1px;
     margin-right: 35%;
-    margin-left: 35 %;
+    margin-left: 36%;
 
     }
  
