@@ -45,13 +45,7 @@ border-bottom: 1px solid #e5e5e5;
     
 }
 
-#logohead
-{
-    /*display: flex;*/  
-    /*flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;*/
-}
+ 
 #logohead img 
 {
     width:100%;
@@ -61,10 +55,10 @@ border-bottom: 1px solid #e5e5e5;
 
 }
 
-header li:hover;
+header a:hover
 {
     padding: 20px 10px;
-    border-top: 3px solid rgb 92,173,211;
+    border-top: 3px solid; color:#5cadd3;
 }
 
 
@@ -84,13 +78,11 @@ header a
 }  
 
 
-
 h1 span 
 {
     color:#5cadd3;
 }
 
- 
 
   img
 {
@@ -115,11 +107,11 @@ h1 span
 {
     text-align: center;
     padding-top: 127px;
+    padding-bottom: 20px;  
 }
 #slogan figure
 {
-    margin:0px;
-    padding-bottom: 20px;     
+    margin:0px;   
 }
  
 button {
@@ -181,9 +173,7 @@ button {
 }
 hr
 {
-    position: relative; 
-   /* top: -15px;
-    display: inline-block*/
+    position: relative;  
     width: 60px;
     height: 0;
     margin: 5px;
@@ -255,8 +245,6 @@ flex-wrap: wrap;
 }
 
 
- 
-
 
 /* ---------------------------------------- */
 /* ==  SECTION 2; NOS PROJECTS+ NAV        */
@@ -272,18 +260,15 @@ flex-wrap: wrap;
  
 #secondprojects_list ul li a {
     padding: 10px 30px;
-    /*background: #e5e5e5;*/
-}
+ }
 
 .nav_menu
 {
     background-color: #d2d2d2cf;
-    /*display: flex;*/
     justify-content: space-between;
     list-style-type: none;
     margin: auto;
-    /* width: 41%; */
-    padding: 0;
+     padding: 0;
 }
 
 
@@ -581,9 +566,6 @@ footer
 
     #barline
     {
-    position: absolute;
-    width: 100%;
-    bottom: -130px;
     display: flex;
     justify-content: flex-start;
     }
