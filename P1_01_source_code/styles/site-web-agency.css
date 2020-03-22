@@ -22,7 +22,7 @@ body
 .bloc_page
 {
  margin: auto;
- width: 95%;
+ width: 100%;
 }
 
 
@@ -39,7 +39,7 @@ background-color:#ffffff;
 position: fixed;
 z-index: 20; 
 top: 0;
-width: 95%;
+width: 100%;
 height:auto;
 border-bottom: 1px solid #e5e5e5;
     
@@ -448,6 +448,7 @@ footer
 
     header
     {
+        padding-top: 15px;
        display: flex;
         justify-content: space-between;
     }    
@@ -550,7 +551,7 @@ footer
      
     .next
     {
-        right: 0px;
+        right: -65px;
     }
     .next i
     {
