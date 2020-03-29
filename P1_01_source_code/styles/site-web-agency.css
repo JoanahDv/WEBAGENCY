@@ -3,7 +3,7 @@
 /*---------------------------------------- */
  body
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',condensed;
     width: 100%;
     margin: 0px;
     line-height: 23px;
@@ -31,7 +31,17 @@
 
 
 
+/*
+em
+{
+    font-weight: 700;
+    font-style: normal;
+}*/
 
+/* ---------------------------------------- */
+/*  CSS ENSEMBLES 
+/*---------------------------------------- */
+ 
 h1{
     font-size: 25pt;
     line-height: 40px;
@@ -46,20 +56,15 @@ p{
 }
 ul 
 {
-        list-style: none;  
+    list-style: none;  
 
 }
-/*
-em
+.introduction p, .texts p, .titre p,#secondprojects a, .nav_menu p,form p
 {
-    font-weight: 700;
-    font-style: normal;
-}*/
+    color: grey;
+}
 
-/* ---------------------------------------- */
-/* == ÉLÉMENTS PRINCIPAUX */
-/*---------------------------------------- */
- 
+
 
 /* ---------------------------------------- */
 /* ==              HEADER               */
@@ -89,13 +94,13 @@ border-bottom: 1px solid #e5e5e5;
     margin-bottom: 8px;
 
 }
-
+/*
 header a:hover
 {
     padding: 20px 10px;
     border-top: 3px solid; color:#5cadd3;
 }
-
+*/
 
 header nav ul
 {
@@ -210,7 +215,7 @@ button {
     border: 0;
     background-color: #d9d9d9;
     border-style: none;
-    width: 150px;
+    width: 154px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -218,15 +223,15 @@ button {
 #services span , .titre span
 {
 position: relative;
-    top: -13px;
+    top: -11px;
     background-color: #f7f7f7;
     width: 17px;
     height: 17px;
     color: #5cadd3;
     padding: 2px 1px 1px 4px;
     border-radius: 100%;
-    margin-left: 60px;
-    margin-right: 60px; 
+    margin-left: 67px;
+    margin-right: 67px; 
 }
 
 /*    Description      */
@@ -339,7 +344,7 @@ flex-wrap: wrap;
 
 .nav_menu li:hover
 {
-    background-color: #3BAED7;
+    background-color: #5cacd3;
     font-weight: bold;
 }
 .nav_menu li:hover a
@@ -453,7 +458,7 @@ footer
         padding-top: 16px;
         display: flex;
         justify-content: space-between;
-        padding-bottom: 4px;
+        padding-bottom: 16px;
 
     } 
     #logohead
@@ -472,7 +477,7 @@ footer
     }
     nav a:hover { 
         border-top: 3px solid #5CADD3 ;
-        padding: 20px ;
+        padding-top: 38px ;
         color: black ;
     }
     .nav_menu li a 
@@ -493,7 +498,7 @@ footer
 
     #slogan
     {
-        margin-top: 75px;
+        margin-top: 103px;
         width: 100%;
         color:white;
         text-align: left;
@@ -524,10 +529,16 @@ footer
         width: 95%;
         /*top: 54%;
         margin-left: 105px;*/
-     }.caption 
+     }
+
+     .caption 
      {
         padding-left: 11%;
         top:40%;
+     }
+     .caption h1
+     {
+         margin-bottom: 0;
      }
     #slogan figure
     {
@@ -538,7 +549,9 @@ footer
     {
     height: 84px;
     width: 40px;
-    border-radius: 90px 0 0 90px;     
+    border-radius: 90px 0 0 90px; 
+    position: absolute;
+    top: 26%;    
     }
 
     #slogan .previous 
@@ -562,9 +575,11 @@ footer
     }
     #slogan .previous 
     {
+    position: absolute;
     height: 84px;
     width: 40px;
-    border-radius: 0 90px 90px 0
+    border-radius: 0 90px 90px 0;
+    top: 26%  ;
     }
         /*SLIDE BAR*/
     #barline
@@ -624,36 +639,44 @@ footer
     width: 30%;
     padding: 1px;
     margin-top: 49px;
+    border-radius: 7px;
 
     }
-    /*
-    .gallery_row  Version ipad 
-    { 
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
+    .nav_menu li 
+    {
+        position: relative;
     }
-    */
+    .nav_menu li:hover .arrow-bottom 
+    {
+        opacity: 1;
+    }
+    .arrow-bottom 
+    {
+        position: absolute;
+        right: 39px;
+        bottom: -9px;
+        border-top: 9px solid #5cacd3;
+        border-right: 8px solid transparent;
+        border-left: 8px solid transparent;
+        opacity: 0;
+    }
+
+    
     #gallery
     {
         margin-right: 5%;
         padding-left: 18px;
-
     }
 
   .gallery_row  
     { 
-        /*display: flex;*/
       
         flex-wrap: wrap;
-           margin: 3%;
-    /*width: 90%;*/
-         
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-     }
+        margin: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
 
      #gallery figure 
@@ -692,7 +715,7 @@ footer
 
     #nous-contacter 
     {
-    background-color: none;
+    background-color:white;
     }
     #nous-contacter
     {
@@ -726,9 +749,6 @@ footer
         padding-top:600px;
     }
 }
-
-
-
 
 
 
