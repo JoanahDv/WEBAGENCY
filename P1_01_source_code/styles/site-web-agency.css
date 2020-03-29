@@ -59,7 +59,7 @@ ul
     list-style: none;  
 
 }
-.introduction p, .texts p, .titre p,#secondprojects a, .nav_menu p,form p
+.introduction p, .texts p, .titre p,.nav_menu p,form p
 {
     color: grey;
 }
