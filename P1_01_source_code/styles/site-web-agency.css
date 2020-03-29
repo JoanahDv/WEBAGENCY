@@ -88,11 +88,13 @@ border-bottom: 1px solid #e5e5e5;
  
 #logohead img 
 {
-    width:100%;
-    height:auto;
+    width: auto;
     margin-top: 5px;
     margin-bottom: 8px;
 
+}
+#logohead{
+    text-align: center;
 }
 /*
 header a:hover
@@ -446,6 +448,16 @@ footer
     
     margin-top: -25%;
     }
+    #slogan
+    {
+     
+    padding-top: 27%;
+     
+    }
+    .top
+    {
+        margin-top: 0;
+    }
 }
   
 
@@ -691,12 +703,12 @@ footer
     opacity: 0;
     background-color: #0000005e;
     position: relative;
-    margin-top: -39%; 
+    margin-top: -56%;
     color: white;
     line-height: 2px;
     padding-top: 1px;
     padding-left: 10px;
-    bottom: -37px;
+    bottom: -75px
 }
 
 .gallery_row img:hover + figcaption, .gallery_caption:hover 
